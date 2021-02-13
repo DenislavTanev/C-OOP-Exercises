@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "P8OQp6Z6p4K9qT9rf5X6Tw49Jj2LnlaUKqrVtyX6CCCtebjSSqg5IPBQ4BUi5ujOtZAo8nwNfUrX0Z1+8Urvmw==",
+  "success": true,
+  "projectFilePath": "D:\\CodeIt\\C# OOP Ex\\01.Inheritance Ex\\Players and Monsters\\MilitaryElite.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wolfi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\wolfi\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\wolfi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
+    "C:\\Users\\wolfi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

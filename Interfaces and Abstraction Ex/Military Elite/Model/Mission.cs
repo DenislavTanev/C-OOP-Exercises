@@ -1,0 +1,44 @@
+﻿using MilitaryElite.Contracts;
+using MilitaryElite.Enumerations;
+using MilitaryElite.Exeptions;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace MilitaryElite.Model
+{
+    public class Mission : IMission
+    {
+        public Mission(string codename,string state)
+        {
+            this.CodeName = codename;
+            this.State = this.TryParseState(state);
+        }
+        public string CodeName { get; private set; }
+
+        public State State { get; private set; }
+
+        public void CompleteMission()
+        {
+            if (this.State==State.Finished )
+            {
+                throw new InvalidMissionCompletionExeption();
+            }
+            this.State = State.Finished; 
+        }
+        private State TryParseState(string stateStr)
+        {
+            State state;
+            bool parsed = Enum.TryParse<State>(stateStr,out state);
+            if (!parsed)
+            {
+                throw new InvalidMissionStateExeption();
+            }
+            return state;
+        }
+        public override string ToString()
+        {
+            return $"Code Name: {this.CodeName} State: {this.State.ToString() }";
+        }
+    }
+}
