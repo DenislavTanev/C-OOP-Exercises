@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CodeIt\\OOP Ex\\Counter Strike\\CounterStrike.csproj": {}
+    "D:\\CodeIt\\C# OOP Ex\\Counter Strike Exam\\CounterStrike.csproj": {}
   },
   "projects": {
-    "D:\\CodeIt\\OOP Ex\\Counter Strike\\CounterStrike.csproj": {
+    "D:\\CodeIt\\C# OOP Ex\\Counter Strike Exam\\CounterStrike.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CodeIt\\OOP Ex\\Counter Strike\\CounterStrike.csproj",
+        "projectUniqueName": "D:\\CodeIt\\C# OOP Ex\\Counter Strike Exam\\CounterStrike.csproj",
         "projectName": "CounterStrike",
-        "projectPath": "D:\\CodeIt\\OOP Ex\\Counter Strike\\CounterStrike.csproj",
+        "projectPath": "D:\\CodeIt\\C# OOP Ex\\Counter Strike Exam\\CounterStrike.csproj",
         "packagesPath": "C:\\Users\\wolfi\\.nuget\\packages\\",
-        "outputPath": "D:\\CodeIt\\OOP Ex\\Counter Strike\\obj\\",
+        "outputPath": "D:\\CodeIt\\C# OOP Ex\\Counter Strike Exam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wolfi\\AppData\\Roaming\\NuGet\\NuGet.Config",
